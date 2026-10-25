@@ -25,8 +25,46 @@ jobs:
       - run: npx tsc --noEmit
       - run: npm run docs:check
       - run: npm run i18n:check
-      - run: npm run build-vite
-        env:
-          NO_ELECTRON: '1'
-          PIP_DEMO_EDITION: baseline
-          VITE_DEMO_EDITION: baseline
+      - name: Build each declared public source profile
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync } from 'node:fs';
+          import { spawnSync } from 'node:child_process';
+          import { resolveDemoBuildProfile } from './scripts/demo-build-profiles.mjs';
+
+          const packageName = JSON.parse(readFileSync('package.json', 'utf8')).name;
+          const variantsByPackage = {
+            'pip-demo-replica': ['replica'],
+            'pip-demo': ['neutral-plus', 'pip', 'pip-plus'],
+          };
+          const variants = variantsByPackage[packageName];
+          if (!variants) {
+            throw new Error(`Unknown public Demo package name: ${packageName}`);
+          }
+
+          for (const variant of variants) {
+            const profile = resolveDemoBuildProfile(variant);
+            console.log(`Building expected variant=${variant} appId=${profile.appId}`);
+            const result = spawnSync(
+              'npx',
+              ['--no-install', 'vite', 'build'],
+              {
+                env: {
+                  ...process.env,
+                  NO_ELECTRON: '1',
+                  VITE_DEMO_PRODUCT: profile.product,
+                  VITE_DEMO_APPEARANCE: profile.appearance,
+                  VITE_DEMO_EXTRAS: profile.extras,
+                },
+                stdio: 'inherit',
+              },
+            );
+            if (result.error) throw result.error;
+            if (result.signal) {
+              throw new Error(`Vite build for ${variant} terminated by ${result.signal}`);
+            }
+            if (result.status !== 0) {
+              throw new Error(`Vite build for ${variant} exited with ${result.status}`);
+            }
+          }
+          NODE
