@@ -1,0 +1,9 @@
+# Privacy, permissions and storage
+
+Recording and editing run locally. This product has no cloud chat/provider controls, usage reporting, automatic update checks/downloads, model downloads or always-on automation server. Renderer resource requests follow an explicit protocol policy that permits packaged resources, `file:`, `data:` and `blob:` URLs, and the explicit local development origin; it is not a general filesystem allowlist. Building dependencies needs the internet. Opening a reference or maintainer link uses your browser only after your action.
+
+The app needs Screen Recording access or Apple's screen/window picker for the source you choose. Accessibility is needed for editable cursor/click telemetry. Microphone, camera and system audio are separate optional grants. Only you may approve native security prompts. Record a synthetic window when testing, keep unrelated windows/passwords out of capture, and stop before private data entry. If a grant is denied, import a local synthetic video and continue editing. Revocation/restart behavior is part of the manual acceptance checklist.
+
+Application settings and support data are stored locally in the product's application-data directory under your user Application Support folder. Project/media paths may also be explicitly chosen in file dialogs. Saved edits, imported sources and exports stay on disk. No automatic retention deletion is promised. Remove only files you recognise after backing them up; originals are deliberately retained.
+
+Projects are not encrypted by this app. Your OS account and disk protections apply. This experimental app has broad local file capabilities required by its editor, so open projects and media only from sources you trust. Keep the source/output destination separate. Export guards reject known video/audio input aliases; no preflight can promise protection against another process changing paths concurrently.
