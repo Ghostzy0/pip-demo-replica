@@ -334,7 +334,13 @@ function setupApplicationMenu() {
 					click: () => sendEditorMenuAction("menu-save-project-as"),
 				},
 				...(isMac
-					? []
+					? [
+							{ type: "separator" as const },
+							{
+								role: "close" as const,
+								label: mainT("common", "actions.close") || "Close",
+							},
+						]
 					: [
 							{ type: "separator" as const },
 							{
