@@ -1,0 +1,12 @@
+:root:root[data-product="replica"] {
+ color-scheme: dark;
+ --bg: #101012; --bg-grad: none; --surface: #19191c; --surface-1: #202024;
+ --surface-2: #29292e; --surface-3: #36363e; --surface-hi: #303036; --surface-warm: #202024;
+ --fg: #eeeeef; --fg-2: #cacacf; --fg-emphasis: #ffffff; --muted: #a5a5b1; --muted-soft: #9999a5; --meta: #aaaab5;
+ --border: #36363e; --border-soft: #2b2b31; --border-hi: #51515e; --shell-rule: #36363e; --shell-rule-soft: #2b2b31;
+ --brand: #9c82ff; --brand-lo: #8363ef; --brand-glow: rgba(156,130,255,.24); --brand-soft: rgba(156,130,255,.14);
+ --accent: #9c82ff; --accent-on: #161020; --accent-soft: rgba(156,130,255,.14); --accent-wash: rgba(156,130,255,.08);
+ --accent-border: rgba(156,130,255,.4); --accent-ring: rgba(156,130,255,.4); --accent-stripe: rgba(156,130,255,.3);
+ --clip: #c49437; --zoom: #9c82ff; --playhead: #b5a2ff;
+ --focus-ring: 0 0 0 3px rgba(156,130,255,.4);
+}

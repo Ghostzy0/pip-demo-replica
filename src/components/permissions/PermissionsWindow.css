@@ -1,0 +1,63 @@
+/* The permission-status window follows the Pip Paper palette without changing grants. */
+html[data-edition="pip"] .permission-window,
+html[data-edition="pip"] .permission-window-loading {
+	background: var(--bg);
+	color: var(--fg);
+}
+
+html[data-edition="pip"] .permission-window > p,
+html[data-edition="pip"] .permission-footer,
+html[data-edition="pip"] .permission-description,
+html[data-edition="pip"] .permission-restricted,
+html[data-edition="pip"] .permission-help-line {
+	color: var(--fg-2);
+}
+
+html[data-edition="pip"] .permission-row {
+	border-color: var(--border);
+	background: var(--surface);
+}
+
+html[data-edition="pip"] .permission-level {
+	background: var(--surface-2);
+	color: var(--fg-2);
+}
+
+html[data-edition="pip"] .permission-window svg {
+	color: var(--accent);
+}
+
+html[data-edition="pip"] .permission-granted {
+	color: var(--success);
+}
+
+html[data-edition="pip"] .permission-granted svg {
+	color: var(--success);
+}
+
+html[data-edition="pip"] .permission-primary {
+	background: var(--accent);
+	color: var(--accent-on);
+}
+
+html[data-edition="pip"] .permission-primary:hover:not(:disabled) {
+	filter: brightness(0.92);
+}
+
+html[data-edition="pip"] .permission-action {
+	background: var(--surface-2);
+	color: var(--fg);
+}
+
+html[data-edition="pip"] .permission-action:hover:not(:disabled) {
+	background: var(--surface-3);
+}
+
+html[data-edition="pip"] .permission-window button:focus-visible {
+	outline: none;
+	box-shadow: var(--focus-ring);
+}
+
+html[data-edition="pip"] .permission-help {
+	border-color: var(--border);
+}
