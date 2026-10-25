@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "scope": "Exact source files and five explicitly reviewed declared-MIT fallbacks for macOS Pip Demo. A fallback preserves published MIT metadata and canonical terms; no missing holder/year is invented and no legal clearance is asserted.",
+  "npm": [
+    {
+      "name": "@cfworker/json-schema",
+      "version": "4.1.1",
+      "integrity": "sha512-gAmrUZSGtKc3AiBL71iNWxDsyUC5uMaKKGdvzYsBoTW/xi42JQHl7eKV2OYzCUqvc+D2RCcf7EXY2iCyFIk6og==",
+      "licenseFile": "curated/npm-license-02.txt",
+      "sha256": "376944252ab78ca6b41aee44ddea8894927ee67891e77e61eb9d59af63e35094",
+      "sourceCommit": "5409fdc2bd144f68e8b28c61c71fcb16600000a6",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/cfworker/cfworker/5409fdc2bd144f68e8b28c61c71fcb16600000a6/LICENSE.md",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@fix-webm-duration/fix",
+      "version": "1.0.1",
+      "integrity": "sha512-rRN4CpWQaXRbCXYqKIxnsUq8OSWSGq/SVlnxxkx0HxMZZ1u0qnB24P766o8QS5YaMMqAOFAzmsMmfZ2OWucOLQ==",
+      "licenseFile": "curated/npm-license-08.txt",
+      "sha256": "32313800857cae0018a1c233717ead61a1ab70788b99da7bed2d37d125494ec8",
+      "sourceCommit": "72c0f8f5ec789e87d5d5ce58cc2b375f8f595721",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/yusitnikov/fix-webm-duration/72c0f8f5ec789e87d5d5ce58cc2b375f8f595721/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@fix-webm-duration/parser",
+      "version": "1.0.1",
+      "integrity": "sha512-Z6el7ohBBpym4iOmxDxumN715cHzLcAbtOtYfIbvoyToVtAuxvHt3ELXGff83iAXEU1Yj7g+obQBdiKJYVhbWw==",
+      "licenseFile": "curated/npm-license-08.txt",
+      "sha256": "32313800857cae0018a1c233717ead61a1ab70788b99da7bed2d37d125494ec8",
+      "sourceCommit": "72c0f8f5ec789e87d5d5ce58cc2b375f8f595721",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/yusitnikov/fix-webm-duration/72c0f8f5ec789e87d5d5ce58cc2b375f8f595721/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/number",
+      "version": "1.1.1",
+      "integrity": "sha512-MkKCwxlXTgz6CFoJx3pCwn07GKp36+aZyu/u2Ln2VrA5DcdyCZkASEDBTd8x5whTQQL5CiYf4prXKLcgQdv29g==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-compose-refs",
+      "version": "1.1.2",
+      "integrity": "sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-context",
+      "version": "1.1.2",
+      "integrity": "sha512-jCi/QKUM2r1Ju5a3J64TH2A5SpKAgh0LpknyqdQ4m6DCV0xJ2HG1xARRwNGPQfi1SLdLWZ1OJz6F4OMBBNiGJA==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-direction",
+      "version": "1.1.1",
+      "integrity": "sha512-1UEWRX6jnOA2y4H5WczZ44gOOjTEmlqv1uNW4GAJEO5+bauCBhv8snY65Iw5/VOS/ghKN9gr2KjnLKxrsvoMVw==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-id",
+      "version": "1.1.1",
+      "integrity": "sha512-kGkGegYIdQsOb4XjsfM97rXsiHaBwco+hFI66oO4s9LU+PLAC5oJ7khdOVFxkhsmlbpUqDAvXw11CluXP+jkHg==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-use-callback-ref",
+      "version": "1.1.1",
+      "integrity": "sha512-FkBMwD+qbGQeMu1cOHnuGB6x4yzPjho8ap5WtbEJ26umhgqVXbhekKUQO+hZEL1vU92a3wHwdp0HAcqAUF5iDg==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-use-escape-keydown",
+      "version": "1.1.1",
+      "integrity": "sha512-Il0+boE7w/XebUHyBjroE+DbByORGR9KKmITzbR7MyQ4akpORYP/ZmbhAr0DG7RmmBqoOnZdy2QlvajJ2QA59g==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-use-layout-effect",
+      "version": "1.1.1",
+      "integrity": "sha512-RbJRS4UWQFkzHTTwVymMTUv8EqYhOp8dOOviLj2ugtTiXRaRQS7GLGxZTLL1jWhMeoSCf5zmcZkqTl9IiYfXcQ==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-use-previous",
+      "version": "1.1.1",
+      "integrity": "sha512-2dHfToCj/pzca2Ck724OZ5L0EVrr3eHRNsG/b3xQJLA2hZpVCS99bLAX+hm1IHXDEnzU6by5z/5MIY794/a8NQ==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-use-rect",
+      "version": "1.1.1",
+      "integrity": "sha512-QTYuDesS0VtuHNNvMh+CjlKJ4LJickCMUAqjlE3+j8w+RlRpwyX3apEQKGFzbZGdo7XNG1tXa+bQqIE7HIXT2w==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/react-use-size",
+      "version": "1.1.1",
+      "integrity": "sha512-ewrXRDTAqAXlkl6t/fkXWNAhFX9I+CkKlw6zjEwk86RSPKwZr3xpBRso655aqYafwtnbpHLj6toFzmd6xdVptQ==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@radix-ui/rect",
+      "version": "1.1.1",
+      "integrity": "sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==",
+      "licenseFile": "curated/npm-license-05.txt",
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+      "sourceCommit": "fcef0668a5c827e5a4baac405474d75680f9a4eb",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/radix-ui/primitives/fcef0668a5c827e5a4baac405474d75680f9a4eb/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/color-convert",
+      "version": "2.10.1",
+      "integrity": "sha512-/Z3YfBiX+SErRM59yQH88Id+Xy/k10nnkfTuqhX6RB2yYUcG57DoFqb6FudhiQ5fwzKvKf1k4xq9lfT1UTFUKQ==",
+      "licenseFile": "curated/npm-license-06.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "d6959f95e9746be78d48b061b04d123572b7aa8f",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/d6959f95e9746be78d48b061b04d123572b7aa8f/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/color-convert",
+      "version": "2.9.6",
+      "integrity": "sha512-w8TpU3MRcquurQJxWR1daKcRygu/a0hLP/VGsLMA3ebb41sAZGxMQLHtS+zC/e3ciFNB7BbPrSPlzOcz6w6cRg==",
+      "licenseFile": "curated/npm-license-07.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-color-alpha",
+      "version": "2.9.6",
+      "integrity": "sha512-DNzEVHZ0Izp4NAwzKqTcl4rLdPjSFjyZCP6Q2vKJEglugZ/bdPsmZaos9IYOrgnd1kPDmTSKZ/p8nI7vBIATGw==",
+      "licenseFile": "curated/npm-license-07.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-color-block",
+      "version": "2.10.1",
+      "integrity": "sha512-nGfhUGZhCbYH/gVvD12H9wZ/NBiToiSyrSdbracyIbA01tZInmkRNmfzTCkPq7yoXMa09I9G8pPISoyHre4TQg==",
+      "licenseFile": "curated/npm-license-06.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "d6959f95e9746be78d48b061b04d123572b7aa8f",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/d6959f95e9746be78d48b061b04d123572b7aa8f/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-color-colorful",
+      "version": "2.9.6",
+      "integrity": "sha512-h74zo+ve9Rpv7xwb1dRfoa23yN39b6eYScDIm7V2d5FzkXN6hR7jnnJ7ZUD9Joz/rdaCz1eFQD9ig+wp8+wSnQ==",
+      "licenseFile": "curated/npm-license-07.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-color-editable-input",
+      "version": "2.10.1",
+      "integrity": "sha512-jMim8eAw/5hz7gaZwBy3vM5wMxPMocOG+u1+wcKbqvavHaeg/wHq7Y29uRyFKj80s4FXvUKehXRQl0F68mA7jQ==",
+      "licenseFile": "curated/npm-license-06.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "d6959f95e9746be78d48b061b04d123572b7aa8f",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/d6959f95e9746be78d48b061b04d123572b7aa8f/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-color-hue",
+      "version": "2.9.6",
+      "integrity": "sha512-B99dW2/AHMD3py83BrXl94bhXeGCZR1FMpU/FNbIIbUrV9QTiIXDs2/SB/tMD9ltcSP59RD5Sc5m2vCb/8anjw==",
+      "licenseFile": "curated/npm-license-07.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-color-saturation",
+      "version": "2.9.6",
+      "integrity": "sha512-R1tiKbTG2WiJXerkmuaKnBFfzgyZUn08q9OjQSvNH1f3ov2/YeUVlOwQY9MbQE7ytZv+9x+1h0Lpk4QG7AdulQ==",
+      "licenseFile": "curated/npm-license-07.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-color-swatch",
+      "version": "2.10.1",
+      "integrity": "sha512-DuGlaIszNcvtsY8BfW+RiUkEK1yVmnAamkzc/S5cQZwaAA5bCKhwwyaKPqh1/XWs7pR4pysjSNlMaeqaSOO34A==",
+      "licenseFile": "curated/npm-license-06.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "d6959f95e9746be78d48b061b04d123572b7aa8f",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/d6959f95e9746be78d48b061b04d123572b7aa8f/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-drag-event-interactive",
+      "version": "2.9.6",
+      "integrity": "sha512-jXzt3Xis/BIYap2Hj2++gB3aEUD0mZoVNGfckurrwjAwxasxNiwkmTGxV5er3due0ZgaVKdOAfTRoYKlgZukSg==",
+      "licenseFile": "curated/npm-license-07.txt",
+      "sha256": "fd1f049b3bb5cbaf5143516b72dbc6805cd30cca0cda94edb37160e37662fd17",
+      "sourceCommit": "f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/uiwjs/react-color/f1996f7ab5a35739fdd90b5b98fd7cb76ee6507e/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "dlv",
+      "version": "1.1.3",
+      "integrity": "sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==",
+      "declaredLicense": "MIT",
+      "mode": "declared-mit-fallback",
+      "licenseFile": "curated/declared-mit-npm-dlv-1.1.3.txt",
+      "sha256": "1124a4eb90e2ad02dadaa160c0054d5de031a113c52d87179befa22e09bb496f",
+      "canonicalTextSha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "sourceCommit": "e636db817a96e4ca4710b407163fb992748b3b80",
+      "sourceCommitUrl": "https://github.com/developit/dlv/tree/e636db817a96e4ca4710b407163fb992748b3b80",
+      "sourceNoticeGap": "Exact source confirmed by npm gitHead and matching upstream tag; notice remains unresolved because no copyright line/full licence text was published in source or tarball."
+    },
+    {
+      "name": "js-tiktoken",
+      "version": "1.0.21",
+      "integrity": "sha512-biOj/6M5qdgx5TKjDnFT1ymSpM5tbd3ylwDtrQvFQSu0Z7bBYko2dF+W/aUkXUPuk6IVpRxk/3Q2sHOzGlS36g==",
+      "licenseFile": "curated/npm-license-03.txt",
+      "sha256": "418cb499b436128d653d79941333a5437b7be2ea9213dcc2f04d15d5d2c51d86",
+      "sourceCommit": "4c8b748e07992c00386f3180af5c574b27b65139",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/dqbd/tiktoken/4c8b748e07992c00386f3180af5c574b27b65139/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "langsmith",
+      "version": "0.7.15",
+      "integrity": "sha512-huRfzLKcREE+ABkqKEriXK8Ax9V+xuV3d3x4PINEGi+hi4qyTvB4Nc2dpLSyfW/Ioj6+6d7T8majjWCe7mXc8A==",
+      "licenseFile": "curated/npm-license-04.txt",
+      "sha256": "34e0b9842c7a31d34e53bc7eb224e81e07a34996106e029bbc72dea2d449f496",
+      "sourceCommit": "83a3024a2d8bd4fc6ac447be81f5e1d136821669",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/langchain-ai/langsmith-sdk/83a3024a2d8bd4fc6ac447be81f5e1d136821669/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "lazy-val",
+      "version": "1.0.5",
+      "integrity": "sha512-0/BnGCCfyUMkBpeDgWihanIAF9JmZhHBgUhEqzvf+adhNGLoP6TaiI5oF8oyb3I45P+PcnrqihSf01M0l0G5+Q==",
+      "declaredLicense": "MIT",
+      "mode": "declared-mit-fallback",
+      "licenseFile": "curated/declared-mit-npm-lazy-val-1.0.5.txt",
+      "sha256": "813d95587cbae00a135e31492d7a5ce1792552c2e048c49663bd5e8010252e86",
+      "canonicalTextSha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "sourceCommit": "b69ad4119f1b19bdab13c61ee2fcc88d46b89071",
+      "sourceCommitUrl": "https://github.com/develar/lazy-val/tree/b69ad4119f1b19bdab13c61ee2fcc88d46b89071",
+      "sourceNoticeGap": "Exact source confirmed by npm gitHead and upstream master at same SHA; notice remains unresolved."
+    },
+    {
+      "name": "react-remove-scroll-bar",
+      "version": "2.3.8",
+      "integrity": "sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==",
+      "declaredLicense": "MIT",
+      "mode": "declared-mit-fallback",
+      "licenseFile": "curated/declared-mit-npm-react-remove-scroll-bar-2.3.8.txt",
+      "sha256": "4d32330a08651bc893b0a23dc9a36eff57d1d6ef071477a2c55241fa2c64c163",
+      "canonicalTextSha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "sourceCommit": "b3b1287aad81def2e2ae707274b74531b61ddbaf",
+      "sourceCommitUrl": null,
+      "sourceNoticeGap": "Exact source revision is not recoverable from public repository refs, while exact package tarball has no notice. Keep unresolved.",
+      "publishedPackageUrl": "https://www.npmjs.com/package/react-remove-scroll-bar/v/2.3.8",
+      "sourceCommitStatus": "Published npm gitHead cannot be fetched from upstream public refs; the integrity-pinned npm archive is the exact inspectable source."
+    },
+    {
+      "name": "react-resizable-panels",
+      "version": "3.0.6",
+      "integrity": "sha512-b3qKHQ3MLqOgSS+FRYKapNkJZf5EQzuf6+RLiq1/IlTHw99YrZ2NJZLk4hQIzTnnIkRg2LUqyVinu6YWWpUYew==",
+      "licenseFile": "curated/npm-license-01.txt",
+      "sha256": "8b21167f99f3c016b39473b2984ceb03b54bf796dd9a7c74fcb80cfd513fe8a8",
+      "sourceCommit": "43a071df6bb96d54e8b81a6be0e2d453af45cc4b",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/bvaughn/react-resizable-panels/43a071df6bb96d54e8b81a6be0e2d453af45cc4b/LICENSE",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "standardwebhooks",
+      "version": "1.0.0",
+      "integrity": "sha512-BbHGOQK9olHPMvQNHWul6MYlrRTAOKn03rOe4A8O3CLWhNf4YHBqq2HJKKC+sfqpxiBY52pNeesD6jIiLDz8jg==",
+      "licenseFile": "curated/npm-license-standardwebhooks.txt",
+      "sha256": "5ec8c7b26b64d881a6706617bed25c049f97f2f35de034c756de8546fd6dbe27",
+      "sourceCommit": "929bf0c1928b188287eaf88d0a9f0a4e87df6499",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/standard-webhooks/standard-webhooks/929bf0c1928b188287eaf88d0a9f0a4e87df6499/libraries/LICENSE",
+      "declaredLicense": "MIT"
+    }
+  ],
+  "rust": [
+    {
+      "name": "block",
+      "version": "0.1.6",
+      "checksum": "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a",
+      "declaredLicense": "MIT",
+      "mode": "declared-mit-fallback",
+      "licenseFile": "curated/declared-mit-rust-block-0.1.6.txt",
+      "sha256": "154b5a2b487c78ceaca410d8d48975c7843734e4756ab9e89f6ef306f948dee3",
+      "canonicalTextSha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "sourceCommit": "47178790cfc9d4a8b092051d8b413b78bd31254a",
+      "sourceCommitUrl": "https://github.com/SSheldon/rust-block/tree/0.1.6",
+      "sourceNoticeGap": "Source pin resolved to exact upstream 0.1.6 tag, but full MIT notice and exact copyright line remain absent. No newer crates.io release; unresolved for publication."
+    },
+    {
+      "name": "codespan-reporting",
+      "version": "0.11.1",
+      "checksum": "3538270d33cc669650c4b093848450d380def10c331d38c768e34cac80576e6e",
+      "licenseFile": "curated/rust-codespan-reporting-0.11.1-notice.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceCommit": "fd389a13f5bb6d625b71e2e4694b26e127f393f9",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/brendanzab/codespan/fd389a13f5bb6d625b71e2e4694b26e127f393f9/LICENSE",
+      "evidenceStatus": "license_text_verified_source_has_no_explicit_copyright_line",
+      "declaredLicense": "Apache-2.0"
+    },
+    {
+      "name": "harfrust",
+      "version": "0.5.2",
+      "checksum": "9da2e5ae821f6e96664977bf974d6d6a2d6682f9ccee23e62ec1d134246845f9",
+      "licenseFile": "curated/rust-harfrust-0.5.2-notice.txt",
+      "sha256": "3a7c3f0b887abb7c638faf022d29257418458614c6724b120ceeffb279f9c7d2",
+      "sourceCommit": "efdae3142ab76a2f1524d72cff9e3dfdc5afd7ca",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/harfbuzz/harfrust/efdae3142ab76a2f1524d72cff9e3dfdc5afd7ca/LICENSE",
+      "evidenceStatus": "verified_exact_upstream_license",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "hexf-parse",
+      "version": "0.2.1",
+      "checksum": "dfa686283ad6dd069f105e5ab091b04c62850d3e4cf5d67debad1933f55023df",
+      "licenseFile": "curated/spdx-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "sourceCommit": "4225763d744183d720f575ae96d04161b4d08ea0",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/CC0-1.0.txt",
+      "evidenceStatus": "license_text_verified_no_upstream_copyright_line",
+      "declaredLicense": "CC0-1.0"
+    },
+    {
+      "name": "malloc_buf",
+      "version": "0.0.6",
+      "checksum": "62bb907fe88d54d8d9ce32a3cceab4218ed2f6b7d35617cafe9adf84e43919cb",
+      "declaredLicense": "MIT",
+      "mode": "declared-mit-fallback",
+      "licenseFile": "curated/declared-mit-rust-malloc_buf-0.0.6.txt",
+      "sha256": "fdc321ce7fc05e6114aa37a0593d256d69eed08e16b7dd7879206b9758636736",
+      "canonicalTextSha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "sourceCommit": "a7811e5f4c6f9685dd57ad9bfe34e9bf6b0ba4f9",
+      "sourceCommitUrl": "https://github.com/SSheldon/malloc_buf/tree/0.0.6",
+      "sourceNoticeGap": "Source pin resolved to exact upstream 0.0.6 tag; full MIT notice and exact copyright line remain absent. The upstream 1.0.0 tag also has no notice and is not a fix; unresolved for publication."
+    },
+    {
+      "name": "naga",
+      "version": "24.0.0",
+      "checksum": "e380993072e52eef724eddfcde0ed013b0c023c3f0417336ed041aa9f076994e",
+      "licenseFile": "curated/rust-naga-24.0.0-notice.txt",
+      "sha256": "c7fea58d1cfe49634cd92e54fc10a9d871f4b275321a4cd8c09e449122caaeb4",
+      "sourceCommit": "dc1e50e08cd4a5c8d6c3e8a180e93535d40bec4a",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/gfx-rs/wgpu/dc1e50e08cd4a5c8d6c3e8a180e93535d40bec4a/LICENSE.MIT",
+      "evidenceStatus": "verified_exact_upstream_license",
+      "declaredLicense": "MIT OR Apache-2.0"
+    },
+    {
+      "name": "napi",
+      "version": "2.16.17",
+      "checksum": "55740c4ae1d8696773c78fdafd5d0e5fe9bc9f1b071c7ba493ba5c413a9184f3",
+      "licenseFile": "curated/rust-napi-2.16.17-notice.txt",
+      "sha256": "3f1ce66533302df3a32edbfdfc0b78f0dd34659e4c1f5817162e5ea3c2297215",
+      "sourceCommit": "f2178312d0e3e07beecc19836b91716a229107d3",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/napi-rs/napi-rs/f2178312d0e3e07beecc19836b91716a229107d3/LICENSE",
+      "evidenceStatus": "verified_exact_upstream_license",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "napi-sys",
+      "version": "2.4.0",
+      "checksum": "427802e8ec3a734331fec1035594a210ce1ff4dc5bc1950530920ab717964ea3",
+      "licenseFile": "curated/rust-napi-sys-2.4.0-notice.txt",
+      "sha256": "3f1ce66533302df3a32edbfdfc0b78f0dd34659e4c1f5817162e5ea3c2297215",
+      "sourceCommit": "f1b8ab5e645e674df33c796ef75aa278cd1b4a31",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/napi-rs/napi-rs/f1b8ab5e645e674df33c796ef75aa278cd1b4a31/LICENSE",
+      "evidenceStatus": "verified_exact_upstream_license",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "profiling",
+      "version": "1.0.18",
+      "checksum": "3d595e54a326bc53c1c197b32d295e14b169e3cfeaa8dc82b529f947fba6bcf5",
+      "licenseFile": "curated/rust-profiling-1.0.18-notice.txt",
+      "sha256": "c8167fdeeed46d3f244d3f85c5bf998ce889343691c32be2c61a8bc4b5c08333",
+      "sourceCommit": "8271551172eb6fa4cba47369aedd93790c623df9",
+      "sourceLicenseUrl": "https://raw.githubusercontent.com/aclysma/profiling/8271551172eb6fa4cba47369aedd93790c623df9/LICENSE-MIT",
+      "evidenceStatus": "verified_exact_upstream_license",
+      "declaredLicense": "MIT OR Apache-2.0"
+    }
+  ],
+  "sourceNoticeGaps": [
+    {
+      "ecosystem": "npm",
+      "name": "dlv",
+      "version": "1.1.3",
+      "reason": "Exact source confirmed by npm gitHead and matching upstream tag; notice remains unresolved because no copyright line/full licence text was published in source or tarball."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lazy-val",
+      "version": "1.0.5",
+      "reason": "Exact source confirmed by npm gitHead and upstream master at same SHA; notice remains unresolved."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react-remove-scroll-bar",
+      "version": "2.3.8",
+      "reason": "Exact source revision is not recoverable from public repository refs, while exact package tarball has no notice. Keep unresolved."
+    },
+    {
+      "ecosystem": "rust",
+      "name": "block",
+      "version": "0.1.6",
+      "reason": "Source pin resolved to exact upstream 0.1.6 tag, but full MIT notice and exact copyright line remain absent. No newer crates.io release; unresolved for publication."
+    },
+    {
+      "ecosystem": "rust",
+      "name": "malloc_buf",
+      "version": "0.0.6",
+      "reason": "Source pin resolved to exact upstream 0.0.6 tag; full MIT notice and exact copyright line remain absent. The upstream 1.0.0 tag also has no notice and is not a fix; unresolved for publication."
+    }
+  ]
+}

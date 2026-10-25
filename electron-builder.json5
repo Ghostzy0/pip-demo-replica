@@ -1,0 +1,27 @@
+// Current macOS local edition; use scripts/build-edition.mjs for complete, reproducible resources.
+{
+  "appId": "uk.pip.demo",
+  "productName": "Pip Demo",
+  "copyright": "© 2026 Ghostzy0 · Includes MIT-licensed work by OpenScreen contributors",
+  "asar": true,
+  "publish": null,
+  "npmRebuild": false,
+  "beforePack": "scripts/before-pack.cjs",
+  "directories": {
+    "output": "release/pip"
+  },
+  "files": [
+    "dist/**",
+    "dist-electron/**",
+    "!node_modules/**"
+  ],
+  "mac": {
+    "minimumSystemVersion": "13.0",
+    "notarize": false,
+    "hardenedRuntime": true,
+    "identity": "-",
+    "entitlements": "macos.entitlements",
+    "entitlementsInherit": "macos.entitlements",
+    "icon": "icons/demo.icns"
+  }
+}

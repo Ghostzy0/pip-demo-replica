@@ -1,0 +1,20 @@
+# Build Demo Replica on macOS
+
+This is build guidance for an experimental source alpha for local developers. No binary downloads are offered. Five named MIT notice-provenance gaps hold binary distribution; see [README](README.md). This repository's supported package is Neutral Replica Core only. It uses the shared engine profile `replica`, application ID `uk.pip.demo.replica`, data directory `Demo-Replica`, and version `0.1.0-alpha.1`. Other variant build scripts are not included in the exported package manifest.
+
+On 25 October, the clean-export Replica package from ref `ceeba575` passed RPATH and package-integrity checks: 40 whole-app Mach-O paths were checked, all 36 RPATH entries were relative, and deep strict ad-hoc signature verification passed. Its four headless CLI exports (control, zoom, voiceover MP4, small GIF) passed with the fixture, ASAR, and native inventory unchanged. A separate partial GUI run on this ref completed import, rename, trim, zoom, Cmd+S save, and MP4 export (1752×1080, nominal 30 fps, 5.666-second container duration); saved trim was 0.752695–1.097605 seconds and zoom was 4.653–4.998 seconds. The intended exact trim/zoom placement recipe was not achieved. Reopen and GIF export remain pending. These steps do not establish full GUI workflow acceptance, live capture, or ASR/model execution. The current normalized shared-engine hash at this ref is `f01935c94e3598165ef60dc4c492b8969a3915b85c8ed4993ca9a1fa9bc033f2`. Historical evidence from 24 October: the clean remote Replica PR clone at `3774c04` passed `npm ci`, `docs:check`, `i18n:check`, `npx tsc --noEmit`, and the Replica baseline/core Vite build under Node.js 22.22.1/npm 10.9.4. A full Replica test suite was not run. No full suite was rerun for the 25 October RPATH fix. The clean remote Custom PR clone at `fc14d6a` passed its default suite (364 files; 4,953 passed, 2 skipped; 4,955 total) and three Vite profile builds. Those historical exports shared normalized engine hash `4ad3c4e…d399013`, so that suite covers the historical shared engine but does not establish a full Replica-product suite. At source revision `4a58359`, focused `before-pack.test.mjs` checks passed (27 passed, 1 skipped). A real temporary macOS Mach-O fixture verified that the before-pack guard rejects an absolute space-containing `LC_RPATH`, then accepts the normalized binary while preserving relative paths, symlinks, idempotence, and a valid strict ad-hoc signature. GUI workflow acceptance, capture permissions, reference fidelity, accessibility technology, notarization, and Windows/Linux package builds remain unqualified.
+
+The shared app's Pip-only source listener applies saved theme changes to already-open Pip windows; the neutral Replica profile is gated out. The page bootstrap initializes newly opened windows from the saved theme. No native multi-window delivery has been verified.
+
+```sh
+npm ci
+npm test -- --maxWorkers=2
+npm run docs:check
+npm run i18n:check
+npm run build:native:demo
+npm run build:replica
+```
+
+Fresh setup needs network access for locked dependencies and pinned native build inputs. `build:native:demo` compiles the ScreenCaptureKit helper, LGPL FFmpeg, camera/runtime assets, and Rust compositor; it is substantial. Cached dependencies and assets may permit an offline build. Caption models are not downloaded automatically.
+
+The package is ad-hoc signed with runtime flags and not notarised. Build success does not verify GUI workflow, live recording, permissions, accessibility, or reference fidelity. macOS screen capture, microphone, camera, system audio, and Accessibility permissions are controlled by the user. Never bypass OS security. See [README](README.md) and [privacy and permissions](PRIVACY.md).
